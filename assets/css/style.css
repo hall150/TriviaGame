@@ -1,0 +1,61 @@
+html, body{
+    height:100%;
+  }
+  
+  body{
+    text-align: center;
+  
+  }
+  
+  #wrapper{
+    margin:2% auto;
+    background-color: rgba(140, 240, 185, 0.83);
+    width:960px;
+    height: 95%;
+    box-sizing: border-box;
+  }
+  
+  #subwrapper{
+    position: relative;
+  }
+  button{
+    display:block;
+    width:50%;
+    height:20%;
+    margin: 0 auto;
+    border:none;
+    cursor: pointer;
+    background:transparent;
+    font-size: 42px;
+  }
+  
+  h1{
+    font-family: 'Aclonica', sans-serif;
+    font-size: 6.5em;
+    font-weight: bold;
+    color:black;
+    padding-top: 2.5%;
+  }
+  
+  h2{
+    font-size: 35px;
+    margin-bottom: 25px;
+  }
+  
+  h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  
+  #start{
+    margin-top: 10%;
+    border:2px solid black;
+    background: rgb(236, 154, 161);
+  }
+  
+  
+  
+  button:hover {
+    border:2px solid black;
+  background: rgb(236, 154, 161);
+  }
